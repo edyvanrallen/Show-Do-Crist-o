@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>pergunta</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+    
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 45%;
+        height: 100%;
+        background-color: #29362F;
+    }
+    
+    .pergdiv {
+        position: relative;
+        top: 15%;
+        left: -10%;
+        width: 125%;
+        height: 20%;
+        border-radius: 5px;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        background: linear-gradient(0deg, #23E76C, #18C45E, #16A14B, #0B8A41);
+    }
+    
+    .alternativa {
+        position: absolute;
+        top: -5%;
+        left: 2%;
+        width: 20%;
+        height: 110%;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        background: linear-gradient(150deg, #343434, #13242C);
+    }
+    
+    .barra {
+        position: absolute;
+        position: absolute;
+        top: -5%;
+        left: 22%;
+        width: 2%;
+        height: 110%;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        background-color: blue;
+    }
+    
+    .respdiv {
+        position: relative;
+        top: 17%;
+        left: 8%;
+        height: 8%;
+        width: 89%;
+        border-radius: 5px;
+        background-color: #3C6FEE;
+    }
+    
+    .pergunta {
+        position: absolute;
+        color: white;
+        font-size: 180%;
+        transform: translate(-50%, -50%);
+        top: 10%;
+        left: 15%;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+    }
+    
+    .respostas {
+        position: absolute;
+        color: white;
+        transform: translate(0%, -50%);
+        font-size: 200%;
+        top: 50%;
+        left: 30%;
+    }
+    
+    .num {
+        position: absolute;
+        color: #3C6FEE;
+        top: -10%;
+        left: 35%;
+        font-size: 400%;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="pergdiv">
+            <label class="pergunta" for="">COMO É CHAMADA A CAPITAL DA RÚSSIA?</label>
+        </div>
+        <br><br>
+        <div class="respdiv">
+            <div class="alternativa">
+                <label class="num" for="">1</label>
+            </div>
+            <div class="barra"></div>
+            <label class="respostas" for="">SÃO PETESBURGO</label>
+        </div>
+        <br>
+        <div class="respdiv">
+            <div class="alternativa">
+                <label class="num" for="">2</label>
+            </div>
+            <div class="barra"></div>
+            <label class="respostas" for="">SÓCHI</label>
+        </div>
+        <br>
+        <div class="respdiv">
+            <div class="alternativa">
+                <label class="num" for="">3</label>
+            </div>
+            <div class="barra"></div>
+            <label class="respostas" for="">MOSCOU</label>
+        </div>
+        <br>
+        <div class="respdiv">
+            <div class="alternativa">
+                <label class="num" for="">4</label>
+            </div>
+            <div class="barra"></div>
+            <label class="respostas" for="">CAZÃ</label>
+        </div>
+
+    </div>
+</body>
+
+</html>
